@@ -106,7 +106,7 @@ namespace ContaCorrenteService.Controllers
                 catch (ApplicationException ex)
                 {
                     return Problem(ex.Message, null, 400);
-                }                
+                }
             }
             catch (Exception)
             {
